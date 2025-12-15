@@ -1,0 +1,50 @@
+# Site Settings
+title: 芯图相册技术博客
+description: 分享照片分类、AI技术、产品开发经验和技术思考
+url: https://blog.xintuxiangce.top  # 可以先用GitHub Pages的默认域名，后续配置自定义域名
+baseurl: ""  # 如果使用子目录，填写子目录名，否则留空
+
+# Author Settings
+author:
+  name: 芯图团队
+  email: contact@xintuxiangce.top
+  github: xiawenyong1977-netizen
+  website: https://www.xintuxiangce.top
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO Settings
+google_analytics: # 后续可以添加Google Analytics ID
+lang: zh-CN
+
+# Social Media Links (这些链接是dofollow，会传递SEO权重)
+social:
+  github: xiawenyong1977-netizen
+  website: https://www.xintuxiangce.top
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+
